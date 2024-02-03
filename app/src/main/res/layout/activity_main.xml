@@ -5,20 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
-    <com.example.shudoku.ShudokuBoardView
+    <com.example.shudoku.view.custom.ShudokuBoardView
         android:id="@+id/shudokuBoardView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/gH2"
-        app:layout_constraintEnd_toStartOf="@id/gV1"
-        app:layout_constraintStart_toEndOf="@id/gV2"
-        app:layout_constraintTop_toBottomOf="@id/gH1"
-        />
+        app:layout_constraintEnd_toEndOf="parent"/>
+<!--        app:layout_constraintBottom_toTopOf="@id/gH2"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/gV1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/gV2"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gH1"-->
+
 
 
     <androidx.constraintlayout.widget.Guideline
